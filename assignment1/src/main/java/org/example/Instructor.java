@@ -1,3 +1,5 @@
+package org.example;
+
 public class Instructor extends Person {
 
     public String employeeID;

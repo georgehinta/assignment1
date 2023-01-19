@@ -1,3 +1,5 @@
+package org.example;
+
 public class Student extends Person {
     //Properties
     public String studentId;
@@ -49,3 +51,4 @@ public class Student extends Person {
     }
 
 }
+

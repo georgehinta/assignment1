@@ -1,3 +1,5 @@
+package org.example;
+
 public abstract class Person {
     public String name;
     public String email;
@@ -12,14 +14,12 @@ public abstract class Person {
 
     public abstract String personDetails(); //abstract method with no base implementation
 
-
-
-
     @Override
     public String toString(){
         return "Name="+this.name+" Email="+this.email;
     }
 
 }
+
 
 
