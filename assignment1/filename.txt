@@ -1,2 +1,16 @@
 Name=Paul Hinta Email=paul_hinta@mcgill.ca StudentId=PaulHinta56 Grade= 100.0
 Name=Victor Nuke Email=victor_nuke@sfu.ca EmployeeId=VictorNuke420
+
+[
+  {
+    "studentId": "PaulHinta56",
+    "grade": 100.0,
+    "name": "Paul Hinta",
+    "email": "paul_hinta@mcgill.ca"
+  },
+  {
+    "employeeID": "VictorNuke420",
+    "name": "Victor Nuke",
+    "email": "victor_nuke@sfu.ca"
+  }
+]
