@@ -9,7 +9,6 @@ public class Student extends Person {
      * Empty Constructor.
      */
     public Student(){
-
     }
 
     /**
@@ -45,7 +44,6 @@ public class Student extends Person {
     public void setStudentId(String studentId){
         this.studentId = studentId;
     }
-
     public void setGrade(double grade) {
         this.grade = grade;
     }

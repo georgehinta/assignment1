@@ -8,7 +8,6 @@ import java.util.List;
 
 public class Main {
     public static  void main(String ... args) {
-        System.out.println("asd");
 
         // build the person list with default values
         List<Person> personList = buildDefaultPersonList();
@@ -16,7 +15,7 @@ public class Main {
         // iterate thru the list and extract the students and instructors
         String personListParsed = buildPersonString(personList);
 
-        // Bonus: using Gson, and industry standard, to jsonify the data
+        // Bonus: using Gson, and industry standard, to jsonify the data (creates Gson object)
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
         // pass in the person list to get the json data
